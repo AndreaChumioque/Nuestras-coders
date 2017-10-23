@@ -1,0 +1,48 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+    line-height: 30px;
+    margin: 0;
+    color: #474747;
+}
+
+hr {
+    height: 5px;
+    background-color: #474747;
+    border-width: 0;
+    width: 80px;
+    float: left;
+}
+
+section {
+    clear: both;
+    width: 420px;
+}
+
+figure {
+    width: 140px;
+    height: 140px;
+    margin: 0;
+    float: left;
+    position: relative;
+}
+
+figure img {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    outline: 1px solid green;
+    
+}
+
+figure p {
+    font-size: 10px;
+    text-align: right;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;s  
+}
