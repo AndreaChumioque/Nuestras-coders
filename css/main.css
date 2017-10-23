@@ -6,7 +6,6 @@
 main {
     font-family: 'Courier Prime', monospace;
     margin: 0 auto;
-    /* outline: 1px solid blue; */
     width: 900px;
     padding: 15px;
     box-sizing: border-box;
@@ -15,7 +14,7 @@ main {
 h2 {
     font-size: 20px;
     line-height: 25px;
-    margin: 0;
+    margin: 0 0 0 12px;
     color: #474747;
 }
 
@@ -24,8 +23,7 @@ hr {
     width: 75px;
     border-width: 0;
     background-color: #474747;
-    margin-bottom: 20px;
-    margin-top: 5px;
+    margin: 5px 0 20px 12px;
     float: left;
 }
 
@@ -41,15 +39,13 @@ figure {
     margin: 0;
     float: left;
     position: relative;
-    padding: 0 24px 24px 0;
+    padding: 12px;
     box-sizing: border-box;
-    /* outline: 1px solid yellow; */
 }
 
 figure img {
     width: 100%;
     box-sizing: border-box;
-    /* outline: 1px dashed green; */
 }
 
 figure p {
@@ -59,6 +55,6 @@ figure p {
     color: #fff;
     margin: 0;
     position: absolute;
-    bottom: 30px;
-    right: 30px;
+    bottom: 20px;
+    right: 20px;
 }
