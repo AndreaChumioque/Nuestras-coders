@@ -1,23 +1,37 @@
-* {
-    font-family: 'Roboto Mono', monospace;
+@font-face {
+    font-family: 'Courier Prime', monospace;
+    src: url('../assets/fonts/Courier-Prime.ttf');
+}
+
+main {
+    font-family: 'Courier Prime', monospace;
+    margin: 0 auto;
+    /* outline: 1px solid blue; */
+    width: 900px;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 h2 {
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 25px;
     margin: 0;
     color: #474747;
 }
 
 hr {
-    height: 5px;
-    background-color: #474747;
+    height: 4px;
+    width: 75px;
     border-width: 0;
-    width: 80px;
+    background-color: #474747;
+    margin-bottom: 20px;
+    margin-top: 5px;
     float: left;
 }
 
 section {
     clear: both;
+    overflow: hidden;
     width: 420px;
 }
 
@@ -27,22 +41,24 @@ figure {
     margin: 0;
     float: left;
     position: relative;
+    padding: 0 24px 24px 0;
+    box-sizing: border-box;
+    /* outline: 1px solid yellow; */
 }
 
 figure img {
     width: 100%;
-    padding: 12px;
     box-sizing: border-box;
-    outline: 1px solid green;
-    
+    /* outline: 1px dashed green; */
 }
 
 figure p {
     font-size: 10px;
+    font-weight: bold;
     text-align: right;
     color: #fff;
     margin: 0;
     position: absolute;
-    bottom: 15px;
-    right: 15px;s  
+    bottom: 30px;
+    right: 30px;
 }
